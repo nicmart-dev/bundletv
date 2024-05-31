@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body fills the entire viewport height */
+}
+
+.telus-footer {
+    padding: 20px 0;
+    color: #333;
+    margin-top: auto; /* Push the footer to the bottom */
+
+    .footer-dropdowns {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 10px;
+
+        .dropdown {
+            flex: 0 0 calc(25% - 20px);
+            margin-bottom: 20px;
+
+            label {
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+
+            select {
+                width: 100%;
+                padding: 5px;
+                margin-top: 5px;
+                color: #333;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .footer-divider {
+        border-top: 1px solid #ccc;
+        margin: 20px 0;
+    }
+
+    .footer-social {
+        text-align: center;
+
+        ul {
+            padding: 0;
+            margin: 0;
+
+            li {
+                display: inline-block;
+                margin: 0 27px;
+
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+
+        .logo img {
+            height: 40px;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+}
