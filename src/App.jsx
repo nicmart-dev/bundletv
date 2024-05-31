@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import SelectOptions from "./pages/SelectOptions/SelectOptions";
 
 const App = () => {
@@ -12,7 +13,7 @@ const App = () => {
         {/* Other components */}
       </Routes>
 
-      {/* TODO: insert footer*/}
+   <Footer/>
     </BrowserRouter>
   );
 };
