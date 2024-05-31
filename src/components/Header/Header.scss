@@ -1,82 +1,82 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 .mobile-header {
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: relative;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
 
 .logo img {
-    height: 30px;
+  height: 30px;
 }
 
 .header-icons {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .cart-icon img {
-    height: 43px;
-    margin-right: 20px;
+  height: 43px;
+  margin-right: 20px;
 }
 
 .menu-icon {
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 20px;
-    width: 25px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  width: 25px;
 }
 
 .menu-icon span {
-    display: block;
-    height: 2px;
-    width: 100%;
-    background-color: #443e3e;
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #443e3e;
 }
 
 .mobile-nav {
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: none;
-    position: absolute;
-    top: 60px;
-    width: 100%;
-    left: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: none;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  left: 0;
 }
 
 .mobile-nav.open {
-    display: block;
+  display: block;
 }
 
 .mobile-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .mobile-nav li {
-    border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 
 .mobile-nav a {
-    color: #000;
-    display: block;
-    padding: 15px 20px;
-    text-decoration: none;
+  color: #000;
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
 }
