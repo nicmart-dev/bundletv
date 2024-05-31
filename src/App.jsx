@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import React from "react";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
@@ -7,18 +7,15 @@ import PackagePage from "./pages/PackagePage/PackagePage";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <Router>
       <Header />
       <Routes>
         <Route path="/" element={<SelectOptions />} />
         <Route path="/package" element={<PackagePage />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </Router>
   );
 };
-
-    
-
 
 export default App;
