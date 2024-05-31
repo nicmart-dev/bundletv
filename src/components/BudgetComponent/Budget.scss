@@ -1,21 +1,62 @@
-.btn-container{
-    // display:flex;
-    &__primary{
-        width: 100%;
-        color: #2B8000;
-        border: 1px solid #2B8000;
-        background: #fff;
-        padding: .5rem 1rem;
-        border-radius: 2rem;
-        font-weight: 700;
-        margin-bottom: 1rem;
+@use '../../styles/partials/global' as *;
+@use '../../styles/partials/variables' as *;
 
-        &--active{
-            background:#2B8000;
-            color: #FFF;
+.budget{
+    padding: 2rem 1.5rem;
+
+    &__step{
+        color: $color-telus-green;
+    }
+
+    &__icon{
+        margin: auto;
+        padding: 1rem 0 0.5rem 0;
+    }
+
+    &__title{
+        color:$color-telus-purple;
+        line-height: 1.5rem;
+    }
+
+    &__description{
+        padding: .8rem;
+        color: $color-text;
+        width: 290px;
+        margin: auto;
+        padding-bottom: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    &__label{
+        color: $color-telus-purple;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1rem;
+    }
+
+    &__btn-container{
+        padding-top: 1rem;
+
+        &-item{
+            font-size: 1rem;
+            width: 100%;
+            color: $color-accessible-green;
+            border: 2px solid $color-accessible-green;
+            background: $color-white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1rem;
+    
+            &:active{
+                background:$color-accessible-green;
+                color: $color-white;
+            }
         }
     }
 }
+
 
 // .btn{
   
