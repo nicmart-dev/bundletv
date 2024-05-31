@@ -1,8 +1,8 @@
-import './Kids.scss';
+import './SelectKids.scss';
 import kidsIcon from '../../assets/icons/big-train-front.svg';
 
 
-const Kids = () => {
+const SelectKids = () => {
 
     return (
            <div className='kids'>
@@ -19,4 +19,4 @@ const Kids = () => {
     )
 }
 
-export default Kids;
+export default SelectKids;
