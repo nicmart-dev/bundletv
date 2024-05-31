@@ -57,6 +57,8 @@
             }
 
             &--primary{
+                background:$color-accessible-green;
+                color: $color-white;
                 margin-right: 1rem;
             }
         }

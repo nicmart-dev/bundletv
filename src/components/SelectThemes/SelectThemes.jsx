@@ -8,7 +8,6 @@ import "./SelectThemes.scss";
 
 function SelectThemes() {
   const themes = [
-    
     { value: "action", label: "Action" },
     { value: "adventure", label: "Adventure" },
     { value: "animation", label: "Animation" },
@@ -37,7 +36,7 @@ function SelectThemes() {
         <img src={heartIcon} alt="HD Channels" />
       </div>
 
-      <h2 className="hd-channels__title">Add Channels by themes</h2>
+      <h2 className="hd-channels__title">Add Channels by Themes</h2>
       <p className="hd-channels__description">
         Based on your preset budget, you will be able to select 2 HD themes.
       </p>
