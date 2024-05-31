@@ -6,6 +6,10 @@ import HDChannels from "../../components/HDChannels/HDChannels";
 import SelectChannels from "../../components/SelectChannels/SelectChannels";
 import SelectAccessibility from "../../components/SelectAccessibility/SelectAccessibility";
 import SelectThemes from "../../components/SelectThemes/SelectThemes";
+import SelectStreaming from '../../components/SelectStreaming/SelectStreaming';
+import ButtonBundle from '../../components/ButtonBundle/ButtonBundle';
+
+
 function SelectOptions() {
   return (
     <>
@@ -16,11 +20,10 @@ function SelectOptions() {
       <SelectThemes />
       <SelectChannels />
       <HDChannels />
+      <SelectStreaming />
       <SelectKids />
       <SelectAccessibility/>
-     
-      
-      {/* Add other steps components */}
+      <ButtonBundle />
     </>
   );
 }

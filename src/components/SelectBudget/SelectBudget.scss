@@ -51,7 +51,10 @@
             margin-bottom: 1rem;
             line-height: 1rem;
             cursor: pointer;
-    
+            &--active {
+                background:$color-accessible-green;
+                color: $color-white;
+            }
             &:active{
                 background:$color-accessible-green;
                 color: $color-white;
