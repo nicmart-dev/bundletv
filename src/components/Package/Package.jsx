@@ -1,10 +1,10 @@
 import "./Package.scss";
-import genreIcon from "../assets/icons/small-drama.svg";
-import themeIcon from "../assets/icons/small-heart.svg";
-import channelIcon from "../assets/icons/small-bigplay-square.svg";
-import hdChannelIcon from "../assets/icons/small-film1.svg";
-import streamingIcon from "../assets/icons/small-cast.svg";
-import netflixImg from "../assets/images/img-netflix.png";
+import genreIcon from "../../assets/icons/small-drama.svg";
+import themeIcon from "../../assets/icons/small-heart.svg";
+import channelIcon from "../../assets/icons/small-bigplay-square.svg";
+import hdChannelIcon from "../../assets/icons/small-film1.svg";
+import streamingIcon from "../../assets/icons/small-cast.svg";
+import netflixImg from "../../assets/images/img-netflix.png";
 
 export default function Package() {
   function Selection({ name }) {

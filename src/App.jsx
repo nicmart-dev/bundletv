@@ -1,7 +1,8 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './App.css';
-import Header from './components/Header/Header';
-import Budget from './components/BudgetComponent/Budget';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Header from "./components/Header/Header";
+import Budget from "./components/BudgetComponent/Budget";
+import Package from "./components/Package/Package";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <BrowserRouter>
         <Header />
         <Budget />
+        <Package />
         <Routes>
           {/* feel free to change the below code */}
           {/* home and package component*/}
@@ -18,6 +20,6 @@ const App = () => {
       </BrowserRouter>
     </div>
   );
-}
+};
 
 export default App;
