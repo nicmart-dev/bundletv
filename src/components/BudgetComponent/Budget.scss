@@ -4,6 +4,7 @@
 
 .budget{
     padding: 2rem 1.5rem;
+    text-align: center;
 
     &__step{
         color: $color-telus-green;
@@ -49,6 +50,7 @@
             font-weight: 700;
             margin-bottom: 1rem;
             line-height: 1rem;
+            cursor: pointer;
     
             &:active{
                 background:$color-accessible-green;
