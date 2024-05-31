@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("../../assets/fonts/HelveticaNeue/HelveticaNeueRoman.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("../../assets/fonts/HelveticaNeue/HelveticaNeueMedium.otf") format("opentype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@mixin font-mobile-h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+@mixin font-mobile-h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+@mixin font-mobile-h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+@mixin font-mobile-p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@mixin font-mobile-button-label {
+    font-size: 1rem;
+    font-weight: 600;
+}

@@ -1,0 +1,72 @@
+/* MultiSelect.scss */
+@use "../../styles/partials/_variables" as *;
+@use "../../styles/partials/_mixins" as *;
+@use "../../styles/partials/_fonts" as *;
+
+.multi-select {
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Helvetica Neue", sans-serif;
+
+  .select__control {
+    border: 1px solid $color-accessible-green;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: $color-white;
+
+    &--is-focused {
+      border-color: $color-accessible-green;
+      box-shadow: 0 0 0 1px $color-accessible-green;
+    }
+    &:hover {
+      border-color: $color-accessible-green;
+    }
+  }
+
+  .select__multi-value {
+    background-color: $color-accessible-green;
+    border-radius: 36.5px;
+    padding: 8px 16px 8px 16px;
+
+    &__label {
+      color: $color-white;
+    }
+
+    &__remove {
+      color: $color-white;
+      cursor: pointer;
+      &:hover {
+        background-color: initial;
+        color: $color-hero;
+      }
+    }
+  }
+
+  .select__menu {
+    border: 1px solid $color-accessible-green;
+    border-radius: 4px;
+    background-color: $color-white;
+  }
+
+  .select__option {
+    padding: 10px;
+    color: $color-accessible-green;
+
+    &--is-focused {
+      background-color: $color-hero;
+    }
+
+    &--is-selected {
+      background-color: $color-telus-green;
+      color: $color-white;
+    }
+  }
+
+  .select__placeholder {
+    color: $color-text;
+  }
+
+  .select__single-value {
+    color: $color-telus-green;
+  }
+}

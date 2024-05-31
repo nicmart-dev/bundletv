@@ -1,0 +1,64 @@
+@use '../../styles/partials/global' as *;
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/fonts.scss' as *;
+
+
+.kids{
+    padding: 2rem 1.5rem;
+    text-align: center;
+
+    &__step{
+        color: $color-telus-green;
+    }
+
+    &__icon{
+        margin: auto;
+        padding: 1rem 0 0.5rem 0;
+    }
+
+    &__title{
+        color:$color-telus-purple;
+        line-height: 1.5rem;
+    }
+
+    &__description{
+        padding: .8rem;
+        color: $color-text;
+        width: 295px;
+        margin: auto;
+        padding-bottom: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    &__label{
+        color: $color-telus-purple;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1rem;
+    }
+
+    &__btn-container{
+        padding-top: 1rem;
+
+        &-item{
+            @include font-mobile-button-label;
+            color: $color-accessible-green;
+            border: 2px solid $color-accessible-green;
+            background: $color-white;
+            padding: 0.6rem 1.8rem;
+            border-radius: 20px;
+            margin-bottom: 1rem;
+            line-height: 1rem;
+            cursor: pointer;
+    
+            &:active{
+                background:$color-accessible-green;
+                color: $color-white;
+            }
+
+            &--primary{
+                margin-right: 1rem;
+            }
+        }
+    }
+}

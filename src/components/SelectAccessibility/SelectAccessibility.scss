@@ -1,0 +1,64 @@
+@use '../../styles/partials/global' as *;
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/fonts.scss' as *;
+
+.accessibility{
+    padding: 2rem 1.5rem;
+
+    &__step{
+        color: $color-telus-green;
+        text-align: center;
+    }
+
+    &__icon{
+        margin: auto;
+        padding: 1rem 0 0.5rem 0;
+    }
+
+    &__title{
+        color: $color-telus-purple;
+        line-height: 1.5rem;
+        text-align: center;
+    }
+
+    &__description{
+        padding: .8rem;
+        color: $color-text;
+        width: 290px;
+        margin: auto;
+        padding-bottom: 1.5rem;
+        line-height: 1.5rem;
+        text-align: center;
+    }
+
+    &__label{
+        color: $color-telus-purple;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1rem;
+    }
+
+    &__btn-container{
+        padding-top: 1rem;
+
+        &-item{
+            font-size: 12px;
+            font-weight: 600;
+            width: 47%;
+            color: #2B8000;
+            border: 2px solid #2B8000;
+            background: #fff;
+            padding: 0.8rem 1.5rem;
+            border-radius: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 0.7rem;
+            margin-right: 6px;
+    
+            &--active {
+                background: $color-accessible-green;
+                color: $color-white;
+            }
+        }
+    }
+}
