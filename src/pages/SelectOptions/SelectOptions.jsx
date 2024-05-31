@@ -1,6 +1,7 @@
 import SelectGenres from "../../components/SelectGenres/SelectGenres";
 import SelectBudget from "../../components/SelectBudget/SelectBudget";
 import SelectKids from '../../components/SelectKids/SelectKids';
+import HDChannels from "../../components/HDChannels/HDChannels";
 
 function SelectOptions() {
   return (
@@ -9,6 +10,8 @@ function SelectOptions() {
       <SelectBudget />
       <SelectGenres />
       <SelectKids />
+      <HDChannels />
+      
       {/* Add other steps components */}
     </>
   );
