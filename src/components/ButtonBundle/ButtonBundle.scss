@@ -1,0 +1,16 @@
+@use '../../styles/partials/global' as *;
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/fonts.scss' as *;
+
+.ButtonBundle {
+    text-align: center;
+
+    &__btn {
+        font-size: 1rem;
+        border-radius: 5px;
+        color: #FFF;
+        padding: 1rem 1.5rem;
+        background: #2B8000;
+        border: 1px solid;
+    }
+}

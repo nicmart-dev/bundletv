@@ -3,6 +3,8 @@ import SelectBudget from "../../components/SelectBudget/SelectBudget";
 import SelectKids from '../../components/SelectKids/SelectKids';
 import HDChannels from "../../components/HDChannels/HDChannels";
 import SelectStreaming from '../../components/SelectStreaming/SelectStreaming';
+import ButtonBundle from '../../components/ButtonBundle/ButtonBundle';
+
 
 function SelectOptions() {
   return (
@@ -13,6 +15,7 @@ function SelectOptions() {
       <HDChannels />
       <SelectStreaming />
       <SelectKids />
+      <ButtonBundle />
       
       {/* Add other steps components */}
     </>
