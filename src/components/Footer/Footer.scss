@@ -1,0 +1,90 @@
+.telus-footer {
+    padding: 20px 0;
+    color: #333;
+
+    .footer-divider {
+        border-top: 1px solid #ccc;
+        margin: 20px 0;
+    }
+
+    .footer-rows {
+        .footer-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            cursor: pointer;
+
+            span {
+                font-size: 16px;
+                align-items: stretch;
+                margin-right: 277px;
+            }
+
+            .arrow {
+                font-size: 16px;
+                color: #333;
+                margin-right: 5px; // Adjusted spacing between the icon and text
+            }
+        }
+
+        .dropdown-content {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+    }
+
+    .footer-social {
+        text-align: center;
+
+        ul {
+            padding: 0;
+            margin: 0;
+
+            li {
+                display: inline-block;
+                margin: 0 10px; // Reduced margin for social icons on mobile view
+
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+
+        .logo img {
+            height: 40px;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+
+    // Media query for mobile view
+    @media (max-width: 768px) {
+        .footer-rows {
+            .footer-row {
+                padding: 8px; // Adjusted padding for smaller screens
+            }
+        }
+
+        .footer-social {
+            ul {
+                li {
+                    margin: 0 25px; // Further reduced margin for social icons on smaller screens
+                }
+            }
+        }
+    }
+}
