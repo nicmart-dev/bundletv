@@ -2,20 +2,18 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
 import Header from "./components/Header/Header";
 import SelectOptions from "./pages/SelectOptions/SelectOptions";
-import "./App.scss";
 
 const App = () => {
   return (
-    <div>
-      <BrowserRouter>
-        <Header />
-        <Routes>
-          <SelectOptions />
-        </Routes>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<SelectOptions />} />
         {/* Other components */}
-      </BrowserRouter>
+      </Routes>
+
       {/* TODO: insert footer*/}
-    </div>
+    </BrowserRouter>
   );
 };
 
