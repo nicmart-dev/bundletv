@@ -6,9 +6,14 @@ import filmIcon from '../../assets/icons/big-film.svg';
 import "./HDChannels.scss";
 
 function HDChannels() {
-    const [selectedButton, setSelectedButton] = useState(null);
-
     const buttons = ['Button 1', 'Button 2', 'Button 3', 'Button 4', 'Button 5'];
+    const [selectedButtons, setSelectedButtons] = useState(Array(buttons.length).fill(false));
+
+    const toggleButton = (index) => {
+        const newSelectedButtons = [...selectedButtons];
+        newSelectedButtons[index] = !newSelectedButtons[index];
+        setSelectedButtons(newSelectedButtons);
+    };
 
     return (
        <section className='hd-channels'>
@@ -24,8 +29,8 @@ function HDChannels() {
                     {buttons.map((button, index) => (
                         <button
                             key={index}
-                            onClick={() => setSelectedButton(index)}
-                            className={selectedButton === index ? 'selected' : ''}
+                            onClick={() => toggleButton(index)}
+                            className={selectedButtons[index] ? 'selected' : ''}
                         >
                             {button}
                         </button>
@@ -34,6 +39,6 @@ function HDChannels() {
 
        </section>
     );
-
 }
+
 export default HDChannels;
