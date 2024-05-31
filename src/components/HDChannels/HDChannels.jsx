@@ -2,40 +2,56 @@ import React from 'react';
 import  {Link, Route} from 'react-router-dom';
 import { useState } from 'react';
 import filmIcon from '../../assets/icons/big-film.svg';
+import MultiSelect from "../MultiSelect/MultiSelect";
 
 import "./HDChannels.scss";
 
 function HDChannels() {
-    const buttons = ['Button 1', 'Button 2', 'Button 3', 'Button 4', 'Button 5'];
-    const [selectedButtons, setSelectedButtons] = useState(Array(buttons.length).fill(false));
-
-    const toggleButton = (index) => {
-        const newSelectedButtons = [...selectedButtons];
-        newSelectedButtons[index] = !newSelectedButtons[index];
-        setSelectedButtons(newSelectedButtons);
+    
+    const channels = [
+        { value: "bbc", label: "BBC" },
+        { value: "cnn", label: "CNN" },
+        { value: "fox-news", label: "Fox News" },
+        { value: "al-jazeera", label: "Al Jazeera" },
+        { value: "nbc", label: "NBC" },
+        { value: "abc", label: "ABC" },
+        { value: "cbs", label: "CBS" },
+        { value: "msnbc", label: "MSNBC" },
+        { value: "cnbc", label: "CNBC" },
+        { value: "bloomberg", label: "Bloomberg" },
+        { value: "espn", label: "ESPN" },
+        { value: "sky-sports", label: "Sky Sports" },
+        { value: "fox-sports", label: "Fox Sports" },
+        { value: "nfl-network", label: "NFL Network" },
+        { value: "nba-tv", label: "NBA TV" },
+        { value: "mlb-network", label: "MLB Network" },
+        { value: "nhl-network", label: "NHL Network" },
+        { value: "hbo", label: "HBO" },
+        { value: "netflix", label: "Netflix" },
+        { value: "amazon-prime", label: "Amazon Prime" },
+      ];
+    const handleChannelChange = (selectedChannels) => {
+        console.log("Selected channels:", selectedChannels);
     };
 
     return (
        <section className='hd-channels'>
-              <p className="hd-channels__select" >Step 5</p>
+              <p className="hd-channels__select" >STEP-5</p>
               <div className='hd-channels__icon'>
                     <img src={filmIcon} alt="HD Channels" />
               </div>
               
-              <h3 className='hd-channels__title' >HD Channels</h3>
+              <h2 className='hd-channels__title' >HD Channels</h2>
               <p className='hd-channels__description'>Based on your preset budget, you will be able to select 5 HD channels.</p>
               <p className="hd-channels__select2" >Select 5</p>
-                <div className='hd-channels__buttons'>
-                    {buttons.map((button, index) => (
-                        <button
-                            key={index}
-                            onClick={() => toggleButton(index)}
-                            className={selectedButtons[index] ? 'selected' : ''}
-                        >
-                            {button}
-                        </button>
-                    ))}
-                </div>
+              <div className='hd-channels__select-channels'>
+                <MultiSelect
+                        options={channels}
+                        placeholder="Select channels..."
+                        onChange={handleChannelChange}
+                    />
+              </div> 
+               
 
        </section>
     );
