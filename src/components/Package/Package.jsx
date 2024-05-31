@@ -20,12 +20,12 @@ export default function Package() {
           </p>
         </div>
         <div className="package__middle">
-          <p className="package__content-title">consist of</p>
+          <p className="package__content-title">Included:</p>
           <div className="package__sections">
             <div className="package__section">
               <div className="package__section-title">
                 <img src={genreIcon} alt="genre icon" />
-                <p className="package__section-title-text">Genere</p>
+                <p className="package__section-title-text">Genres</p>
               </div>
               <div className="package__selections">
                 <Selection name={"Action"} />
