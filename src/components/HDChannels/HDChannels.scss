@@ -1,0 +1,84 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.hd-channels {
+    margin: 0 5%;
+    position: relative;
+    padding: 10rem;
+    margin-top: 5rem;
+    top: -4rem;
+    @include tablet {
+        top: -6rem;
+    }
+    @include desktop {
+        margin: 0 8.6%;
+    }
+    &__select {
+        
+        color : $color-telus-green;
+        text-align: center;
+       
+    }
+    &__icon {
+        
+        color: $color-telus-purple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        img {
+            width: 5.5rem;
+            height: 5.5rem;
+            justify-content: center;
+        }
+    }
+    &__title {
+        font-size : 2rem;
+        color: $color-telus-purple;
+        text-align: center;
+        @include tablet {
+            font-size: 3rem;
+        }
+    }
+    &__description {
+        font-size: 1rem;
+        
+        text-align: center;
+        margin-top: 1rem;
+        @include tablet {
+            font-size: 2rem;
+        }
+    }
+    &__select2 {
+        
+        color : $color-telus-purple;
+        text-align: center;
+       
+    }
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        @include tablet {
+            margin-top: 3rem;
+        }
+        @include desktop {
+            margin-top: 4rem;
+        }
+        button {
+            background-color: $color-telus-green;
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 5px;
+            margin: 0 1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            &:hover {
+                background-color: $color-telus-purple;
+            }
+        }
+    }
+  
+}
