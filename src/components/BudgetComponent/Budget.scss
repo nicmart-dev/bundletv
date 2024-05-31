@@ -1,0 +1,22 @@
+.btn-container{
+    // display:flex;
+    &__primary{
+        width: 100%;
+        color: #2B8000;
+        border: 1px solid #2B8000;
+        background: #fff;
+        padding: .5rem 1rem;
+        border-radius: 2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+
+        &--active{
+            background:#2B8000;
+            color: #FFF;
+        }
+    }
+}
+
+// .btn{
+  
+// }
