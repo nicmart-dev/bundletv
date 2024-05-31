@@ -11,20 +11,21 @@
         margin: 0 8.6%;
     }
     &__select {
-        
+
         color : $color-telus-green;
         margin-bottom: 1rem;
-       
+
+
     }
     &__icon {
-        
+
         color: $color-telus-purple;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 1rem;
-        
-       
+
+
     }
     &__title {
         color:$color-telus-purple;
@@ -39,12 +40,12 @@
         line-height: 1.5rem;
     }
     &__select2 {
-        
+
         color : $color-telus-purple;
         margin-bottom: 1rem;
-      
-       
+
+
     }
-   
-  
+
+
 }
