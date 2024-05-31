@@ -1,0 +1,203 @@
+[
+    {
+      "icon_url": "https://example.com/channels/abc.png",
+      "price_cad": 0.0,
+      "target_audience": "General",
+      "genre": ["Drama", "Comedy", "News", "Talk Show", "Game Show"],
+      "theme": ["Entertainment", "Current Events", "Lifestyle", "Pop Culture"],
+      "resolution": "HD",
+      "accessibility": ["Subtitles", "Closed Captioning"],
+      "type": "Channel"
+    },
+    {
+      "icon_url": "https://example.com/channels/cbs.png",
+      "price_cad": 0.0,
+      "target_audience": "General",
+      "genre": ["Drama", "Comedy", "Reality", "Crime", "Procedural"],
+      "theme": ["Entertainment", "Current Events", "Lifestyle"],
+      "resolution": "HD",
+      "accessibility": ["Subtitles", "Closed Captioning", "Audio Description"],
+      "type": "Channel"
+    },
+    {
+      "icon_url": "https://example.com/channels/nbc.png",
+      "price_cad": 0.0,
+      "target_audience": "General",
+      "genre": ["Drama", "Comedy", "Sports", "Late Night", "Variety"],
+      "theme": ["Entertainment", "Current Events", "Sports"],
+      "resolution": "HD",
+      "accessibility": ["Subtitles", "Closed Captioning"],
+      "type": "Channel"
+    },
+    {
+      "icon_url": "https://example.com/channels/fox.png",
+      "price_cad": 0.0,
+      "target_audience": "General",
+      "genre": ["Drama", "Comedy", "Animation", "Reality", "Competition"],
+      "theme": ["Entertainment", "Current Events", "Pop Culture"],
+      "resolution": "HD",
+      "accessibility": ["Subtitles", "Closed Captioning"],
+      "type": "Channel"
+    },
+    {
+      "icon_url": "https://example.com/channels/pbs.png",
+      "price_cad": 0.0,
+      "target_audience": "General",
+      "genre": ["Documentary", "Educational", "News", "Children's"],
+      "theme": ["Educational", "Current Events", "Science", "Nature"],
+      "resolution": "HD",
+      "accessibility": ["Subtitles", "Closed Captioning", "Audio Description"],
+      "type": "Channel"
+    },
+    {
+      "icon_url": "https://example.com/channels/cw.png",
+      "price_cad": 0.0,
+      "target_audience": "Young Adults",
+      "genre": ["Drama", "Superhero", "Teen Drama", "Mystery"],
+      "theme": ["Entertainment", "Fantasy", "Sci-Fi"],
+      "resolution": "HD",
+      "accessibility": ["Subtitles", "Closed Captioning"],
+      "type": "Channel"
+    },
+    {
+      "icon_url": "https://example.com/channels/espn.png",
+      "price_cad": 12.99,
+      "target_audience": "General",
+      "genre": ["Sports", "News", "Analysis", "Talk Show"],
+      "theme": ["Sports"],
+      "resolution": "HD",
+      "accessibility": ["Closed Captioning"],
+      "type": "Channel"
+    },
+    {
+      "icon_url": "https://example.com/channels/cnn.png",
+      "price_cad": 8.99,
+      "target_audience": "General",
+      "genre": ["News", "Talk Show", "Documentary"],
+      "theme": ["Current Events", "Politics", "World News"],
+      "resolution": "HD",
+      "accessibility": ["Closed Captioning"],
+      "type": "Channel"
+    },
+    {
+      "icon_url": "https://example.com/channels/hbo.png",
+      "price_cad": 19.99,
+      "target_audience": "Adults",
+      "genre": ["Drama", "Comedy", "Movies", "Miniseries", "Anthology"],
+      "theme": ["Entertainment", "Thriller", "Mystery", "Dark Comedy"],
+      "resolution": "HD",
+      "accessibility": ["Subtitles", "Closed Captioning"],
+      "type": "Streaming Service"
+    },
+    {
+      "icon_url": "https://example.com/channels/showtime.png",
+      "price_cad": 14.99,
+      "target_audience": "Adults",
+      "genre": ["Drama", "Comedy", "Movies", "Sports", "Documentary"],
+      "theme": ["Entertainment", "Crime", "Thriller", "Action"],
+      "resolution": "HD",
+      "accessibility": ["Subtitles", "Closed Captioning"],
+      "type": "Streaming Service"
+    },
+    {
+      "icon_url": "https://example.com/channels/disney.png",
+      "price_cad": 9.99,
+      "target_audience": "Kids & Family",
+      "genre": ["Animation", "Family", "Comedy", "Adventure"],
+      "theme": ["Entertainment", "Fantasy", "Fairytale"],
+      "resolution": "HD",
+      "accessibility": ["Subtitles", "Closed Captioning", "Audio Description"],
+      "type": "Streaming Service"
+    },
+    {
+      "icon_url": "https://example.com/channels/nickelodeon.png",
+      "price_cad": 7.99,
+      "target_audience": "Kids",
+      "genre": ["Animation", "Comedy", "Live-Action", "Game Show"],
+      "theme": ["Entertainment", "Humor", "Slaostick"],
+      "resolution": "HD",
+      "accessibility": ["Closed Captioning", "Audio Description"],
+      "type": "Channel"
+    },
+    {
+      "icon_url": "https://example.com/channels/cartoonnetwork.png",
+      "price_cad": 6.99,
+      "target_audience": "Kids",
+      "genre": ["Animation", "Comedy", "Action", "Adventure"],
+      "theme": ["Entertainment", "Superhero", "Fantasy"],
+      "resolution": "HD",
+      "accessibility": ["Closed Captioning"],
+      "type": "Channel"
+    },
+    {
+      "icon_url": "https://example.com/channels/discovery.png",
+      "price_cad": 10.99,
+      "target_audience": "General",
+      "genre": ["Documentary", "Reality", "Survival", "Nature"],
+      "theme": ["Educational", "Science", "Technology", "Exploration"],
+      "resolution": "HD",
+      "accessibility": ["Closed Captioning"],
+      "type": "Channel"
+    },
+    {
+      "icon_url": "https://example.com/channels/history.png",
+      "price_cad": 8.99,
+      "target_audience": "General",
+      "genre": ["Documentary", "Reality", "Historical Drama"],
+      "theme": ["Historical", "Military", "Ancient Civilizations"],
+      "resolution": "HD",
+      "accessibility": ["Closed Captioning"],
+      "type": "Channel"
+    },
+    {
+      "icon_url": "https://example.com/channels/tlc.png",
+      "price_cad": 7.99,
+      "target_audience": "Adults",
+      "genre": ["Reality", "Lifestyle", "Medical"],
+      "theme": ["Family", "Relationships", "Health"],
+      "resolution": "HD",
+      "accessibility": ["Closed Captioning"],
+      "type": "Channel"
+    },
+    {
+      "icon_url": "https://example.com/channels/foodnetwork.png",
+      "price_cad": 6.99,
+      "target_audience": "General",
+      "genre": ["Cooking", "Competition", "Travel", "Reality"],
+      "theme": ["Food", "Culinary", "Restaurants"],
+      "resolution": "HD",
+      "accessibility": ["Closed Captioning"],
+      "type": "Channel"
+    },
+    {
+      "icon_url": "https://example.com/channels/hg.png",
+      "price_cad": 6.99,
+      "target_audience": "Adults",
+      "genre": ["Home Improvement", "Renovation", "Real Estate", "Reality"],
+      "theme": ["Lifestyle", "Home Decor", "DIY"],
+      "resolution": "HD",
+      "accessibility": ["Closed Captioning"],
+      "type": "Channel"
+    },
+    {
+        "icon_url": "https://example.com/channels/bravo.png",
+        "price_cad": 7.99,
+        "target_audience": "Adults",
+        "genre": ["Reality", "Competition", "Drama", "Lifestyle"],
+        "theme": ["Entertainment", "Fashion", "Pop Culture"],
+        "resolution": "HD",
+        "accessibility": ["Closed Captioning"],
+        "type": "Channel"
+        },
+        {
+        "icon_url": "https://example.com/channels/mtv.png",
+        "price_cad": 6.99,
+        "target_audience": "Young Adults",
+        "genre": ["Reality", "Music", "Drama", "Comedy"],
+        "theme": ["Entertainment", "Pop Culture", "Music Videos"],
+        "resolution": "HD",
+        "accessibility": ["Closed Captioning"],
+        "type": "Channel"
+    }
+]
+  
