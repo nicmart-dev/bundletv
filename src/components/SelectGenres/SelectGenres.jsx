@@ -17,7 +17,7 @@ const SelectGenres = () => {
       <p className="genres__description">
         Tell us what genres you enjoy watching.
       </p>
-      <p className="genres__label">Import your preferences</p>
+      <p className="genres__label">Import your preferences from</p>
       <div className="genres__btn-container">
         <div className="genres__import">IMDb</div>
         <div className="genres__import">Netflix</div>

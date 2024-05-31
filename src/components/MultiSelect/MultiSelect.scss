@@ -4,7 +4,7 @@
 @use "../../styles/partials/_fonts" as *;
 
 .multi-select {
-  width: 300px;
+  width: 100%;
   margin: 0 auto;
   font-family: "Helvetica Neue", sans-serif;
 
@@ -26,6 +26,7 @@
   .select__multi-value {
     background-color: $color-accessible-green;
     border-radius: 36.5px;
+    padding: 8px 16px 8px 16px;
 
     &__label {
       color: $color-white;
