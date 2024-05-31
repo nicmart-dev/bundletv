@@ -7,23 +7,39 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 40rem;
+  height: calc(100vh - var(--header-height));
   padding: 0;
   text-align: center;
+  position: relative;
+  margin-top: var(--header-height);
+
   @include tablet {
-    height: 50rem;
+    height: calc(100vh - var(--header-height));
+  }
+
+  @include desktop {
+    height: calc(100vh - var(--header-height));
   }
 
   &__title {
+    margin-top: 40px;
     margin-bottom: 20px;
     color: $color-telus-purple;
     font-size: 2rem;
     font-weight: 600;
-    margin-bottom: 0;
+
+    @include tablet {
+      font-size: 2.5rem;
+    }
+
+    @include desktop {
+      font-size: 3rem;
+    }
   }
 
   &__description {
     margin-bottom: 20px;
+    margin-top: 0;
     color: #2a2c2e;
     font-size: 16px;
     font-weight: 400;
@@ -31,8 +47,16 @@
     text-align: center;
     width: 312px;
     height: 48px;
-    gap: 0px;
-    opacity: 0px;
+
+    @include tablet {
+      font-size: 18px;
+      width: 400px;
+    }
+
+    @include desktop {
+      font-size: 20px;
+      width: 500px;
+    }
   }
 
   &__button {
@@ -44,14 +68,25 @@
     margin-bottom: 30px;
     width: 200px;
     height: 33px;
-    padding: 8px 32px 8px 32px;
-    gap: 8px;
+    padding: 8px 32px;
     border-radius: 36.5px;
-    opacity: 0px;
 
+    @include tablet {
+      font-size: 18px;
+      width: 220px;
+      height: 40px;
+    }
+
+    @include desktop {
+      font-size: 20px;
+      width: 240px;
+      height: 45px;
+    }
   }
+
   &__image {
     width: 100%;
     height: auto;
+    margin-top: auto;
   }
 }
