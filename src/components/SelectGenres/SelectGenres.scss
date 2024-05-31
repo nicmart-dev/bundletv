@@ -1,0 +1,39 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/fonts.scss" as *;
+
+.genres {
+  padding: 2rem 1.5rem;
+  text-align: center;
+
+  &__step {
+    color: $color-telus-green;
+  }
+
+  &__icon {
+    margin: auto;
+    padding: 1rem 0 0.5rem 0;
+  }
+
+  &__title {
+    color: $color-telus-purple;
+    line-height: 1.5rem;
+  }
+
+  &__description {
+    padding: 0.8rem;
+    text-wrap: nowrap;
+    color: $color-text;
+    width: 290px;
+    margin: auto;
+    padding-bottom: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  &__label {
+    color: $color-telus-purple;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1rem;
+  }
+}
