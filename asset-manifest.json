@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bundletv/static/css/main.b3dc6670.css",
-    "main.js": "/bundletv/static/js/main.61b59119.js",
+    "main.js": "/bundletv/static/js/main.f5048103.js",
     "static/media/HelveticaNeueRoman.otf": "/bundletv/static/media/HelveticaNeueRoman.ddb209473d7df560da50.otf",
     "static/media/hero-2.png": "/bundletv/static/media/hero-2.732c72d917b147210d5f.png",
     "static/media/HelveticaNeueMedium.otf": "/bundletv/static/media/HelveticaNeueMedium.38884ffafe8888205009.otf",
@@ -24,10 +24,10 @@
     "static/media/big-play-square.svg": "/bundletv/static/media/big-play-square.cd2c9a4709e9ecbba93d3038ae023799.svg",
     "static/media/big-film.svg": "/bundletv/static/media/big-film.3ed763c44ba18b2b44dc3922998ab701.svg",
     "main.b3dc6670.css.map": "/bundletv/static/css/main.b3dc6670.css.map",
-    "main.61b59119.js.map": "/bundletv/static/js/main.61b59119.js.map"
+    "main.f5048103.js.map": "/bundletv/static/js/main.f5048103.js.map"
   },
   "entrypoints": [
     "static/css/main.b3dc6670.css",
-    "static/js/main.61b59119.js"
+    "static/js/main.f5048103.js"
   ]
 }
