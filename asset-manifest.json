@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/bundletv/static/css/main.b3dc6670.css",
+    "main.js": "/bundletv/static/js/main.61b59119.js",
+    "static/media/HelveticaNeueRoman.otf": "/bundletv/static/media/HelveticaNeueRoman.ddb209473d7df560da50.otf",
+    "static/media/hero-2.png": "/bundletv/static/media/hero-2.732c72d917b147210d5f.png",
+    "static/media/HelveticaNeueMedium.otf": "/bundletv/static/media/HelveticaNeueMedium.38884ffafe8888205009.otf",
+    "static/media/hero-1.png": "/bundletv/static/media/hero-1.7690fe2341c770e4ac56.png",
+    "static/media/disney.png": "/bundletv/static/media/disney.0c907b877a19739828dc.png",
+    "static/media/prime.png": "/bundletv/static/media/prime.c4c20fecb0c65ed12d2e.png",
+    "static/media/img-netflix.png": "/bundletv/static/media/img-netflix.fa4ffc9efd301d743a61.png",
+    "static/media/small-drama.svg": "/bundletv/static/media/small-drama.2a159cdb6924bfda18311e93de5ac66a.svg",
+    "static/media/small-cast.svg": "/bundletv/static/media/small-cast.16bb434ea0790242ddb55d0f988834de.svg",
+    "static/media/big-drama.svg": "/bundletv/static/media/big-drama.761b35b6149de2550cd0d5acb2e61b21.svg",
+    "static/media/big-train-front.svg": "/bundletv/static/media/big-train-front.3239db1e4f7d035b7c16be489108d63b.svg",
+    "static/media/big-cast.svg": "/bundletv/static/media/big-cast.1ebb4cf8859f3ed8b7437ec56f64c8e0.svg",
+    "static/media/big-circle-dollar-sign.svg": "/bundletv/static/media/big-circle-dollar-sign.e411834621499235613499b1efe6e76a.svg",
+    "index.html": "/bundletv/index.html",
+    "static/media/small-heart.svg": "/bundletv/static/media/small-heart.6bd66197b47a3f41ab04e84da129affa.svg",
+    "static/media/big-eye.svg": "/bundletv/static/media/big-eye.cd856d0b877face8c49bc244f0f6bfd3.svg",
+    "static/media/small-bigplay-square.svg": "/bundletv/static/media/small-bigplay-square.cb0983219f2348ed356998c28ceee41b.svg",
+    "static/media/small-film1.svg": "/bundletv/static/media/small-film1.2fe6fe0f4a59822a9b55aa7b6ea5b2bb.svg",
+    "static/media/big-heart.svg": "/bundletv/static/media/big-heart.f6a7313a520096fca073ea55b4ddd333.svg",
+    "static/media/big-play-square.svg": "/bundletv/static/media/big-play-square.cd2c9a4709e9ecbba93d3038ae023799.svg",
+    "static/media/big-film.svg": "/bundletv/static/media/big-film.3ed763c44ba18b2b44dc3922998ab701.svg",
+    "main.b3dc6670.css.map": "/bundletv/static/css/main.b3dc6670.css.map",
+    "main.61b59119.js.map": "/bundletv/static/js/main.61b59119.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3dc6670.css",
+    "static/js/main.61b59119.js"
+  ]
+}
