@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Select from "react-select";
 import PropTypes from "prop-types";
-import "./MultiSelect.css";
+import "./MultiSelect.scss";
 
 const MultiSelect = ({ options, placeholder, onChange }) => {
   const [selectedOptions, setSelectedOptions] = useState([]);

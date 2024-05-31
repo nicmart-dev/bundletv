@@ -9,44 +9,44 @@
   font-family: "Helvetica Neue", sans-serif;
 
   .select__control {
-    border: 1px solid $color-telus-purple;
+    border: 1px solid $color-accessible-green;
     border-radius: 4px;
     padding: 5px;
     background-color: $color-white;
 
     &--is-focused {
-      border-color: $color-telus-purple;
-      box-shadow: 0 0 0 1px $color-telus-purple;
+      border-color: $color-accessible-green;
+      box-shadow: 0 0 0 1px $color-accessible-green;
     }
   }
 
   .select__multi-value {
-    background-color: $color-hero;
-    border-radius: 4px;
+    background-color: $color-accessible-green;
+    border-radius: 36.5px;
 
     &__label {
-      color: $color-telus-purple;
+      color: $color-white;
     }
 
     &__remove {
-      color: $color-text;
+      color: $color-white;
       cursor: pointer;
-
       &:hover {
-        color: $color-telus-purple;
+        background-color: initial;
+        color: $color-hero;
       }
     }
   }
 
   .select__menu {
-    border: 1px solid $color-telus-purple;
+    border: 1px solid $color-accessible-green;
     border-radius: 4px;
     background-color: $color-white;
   }
 
   .select__option {
     padding: 10px;
-    color: $color-telus-purple;
+    color: $color-accessible-green;
 
     &--is-focused {
       background-color: $color-hero;
@@ -63,6 +63,6 @@
   }
 
   .select__single-value {
-    color: $color-telus-purple;
+    color: $color-telus-green;
   }
 }
