@@ -1,0 +1,68 @@
+/* MultiSelect.scss */
+@use "../../styles/partials/_variables" as *;
+@use "../../styles/partials/_mixins" as *;
+@use "../../styles/partials/_fonts" as *;
+
+.multi-select {
+  width: 300px;
+  margin: 0 auto;
+  font-family: "Helvetica Neue", sans-serif;
+
+  .select__control {
+    border: 1px solid $color-telus-purple;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: $color-white;
+
+    &--is-focused {
+      border-color: $color-telus-purple;
+      box-shadow: 0 0 0 1px $color-telus-purple;
+    }
+  }
+
+  .select__multi-value {
+    background-color: $color-hero;
+    border-radius: 4px;
+
+    &__label {
+      color: $color-telus-purple;
+    }
+
+    &__remove {
+      color: $color-text;
+      cursor: pointer;
+
+      &:hover {
+        color: $color-telus-purple;
+      }
+    }
+  }
+
+  .select__menu {
+    border: 1px solid $color-telus-purple;
+    border-radius: 4px;
+    background-color: $color-white;
+  }
+
+  .select__option {
+    padding: 10px;
+    color: $color-telus-purple;
+
+    &--is-focused {
+      background-color: $color-hero;
+    }
+
+    &--is-selected {
+      background-color: $color-telus-green;
+      color: $color-white;
+    }
+  }
+
+  .select__placeholder {
+    color: $color-text;
+  }
+
+  .select__single-value {
+    color: $color-telus-purple;
+  }
+}
