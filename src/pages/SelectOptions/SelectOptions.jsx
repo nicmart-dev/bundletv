@@ -13,9 +13,10 @@ function SelectOptions() {
       <SelectBudget />
       <SelectGenres />
       <SelectChannels />
+      <HDChannels />
       <SelectKids />
       <SelectAccessibility/>
-      <HDChannels />
+     
       
       {/* Add other steps components */}
     </>
