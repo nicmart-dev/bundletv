@@ -2,11 +2,9 @@
 @use '../../styles/partials/variables' as *;
 @use '../../styles/partials/fonts.scss' as *;
 
-
 .streaming {
     padding: 2rem 1.5rem;
     text-align: center;
-
 
     &__step {
         color: $color-telus-green;
@@ -40,28 +38,24 @@
 
     &__btn-container {
         padding-top: 1rem;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        justify-items: center;
 
         &-item {
-            @include font-mobile-button-label;
-            color: $color-accessible-green;
-            border: 2px solid $color-accessible-green;
-            background: $color-white;
-            padding: 0.6rem 1.8rem;
-            border-radius: 20px;
-            margin-bottom: 1rem;
-            line-height: 1rem;
+            width: 100px;
+            height: auto;
             cursor: pointer;
+            opacity: 1;
+            transition: opacity 0.3s ease;
 
-            &:active {
-                background: $color-accessible-green;
-                color: $color-white;
+            &.selected {
+                opacity: 1;
             }
 
-            &--primary {
-                margin-right: 1rem;
+            &:not(.selected) {
+                opacity: 0.5;
             }
         }
     }
