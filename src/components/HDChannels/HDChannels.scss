@@ -3,6 +3,7 @@
 
 .hd-channels {
     padding: 2rem 1.5rem;
+    text-align: center;
     @include tablet {
         top: -6rem;
     }
@@ -12,7 +13,7 @@
     &__select {
         
         color : $color-telus-green;
-        
+        margin-bottom: 1rem;
        
     }
     &__icon {
