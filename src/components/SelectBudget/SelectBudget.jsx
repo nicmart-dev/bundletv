@@ -4,7 +4,7 @@ import budgetIcon from "../../assets/icons/big-circle-dollar-sign.svg";
 const SelectBudget = () => {
   return (
     <div className="budget">
-      <p className="budget__step">STEP-1</p>
+      <p className="budget__step">STEP 1</p>
       <img src={budgetIcon} alt="budget-icon" className="budget__icon" />
       <h2 className="budget__title">Your budget</h2>
       <p className="budget__description">
