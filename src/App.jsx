@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Budget from './components/BudgetComponent/Budget';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
@@ -11,8 +11,9 @@ function App() {
         <Budget />
         <Routes>
           {/* feel free to change the below code */}
-          <Route path='/' element={<h1>Home</h1>} />
-          <Route path='/package' element={<h1>Package</h1>} />
+          {/* home and package component*/}
+          {/* <Route path='/' element={} />    */}
+          {/* <Route path='/package' element={} /> */}
         </Routes>
       </BrowserRouter>
     </div>

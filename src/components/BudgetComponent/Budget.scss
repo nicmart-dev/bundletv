@@ -1,5 +1,6 @@
 @use '../../styles/partials/global' as *;
 @use '../../styles/partials/variables' as *;
+@use '../../styles/partials/fonts.scss' as *;
 
 .budget{
     padding: 2rem 1.5rem;
@@ -38,7 +39,7 @@
         padding-top: 1rem;
 
         &-item{
-            font-size: 1rem;
+            @include font-mobile-button-label;
             width: 100%;
             color: $color-accessible-green;
             border: 2px solid $color-accessible-green;
