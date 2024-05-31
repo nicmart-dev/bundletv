@@ -20,7 +20,6 @@ const SelectGenres = () => {
 
   return (
     <>
-      <h1>Select Genres</h1>
       <MultiSelect
         options={genres}
         placeholder="Select genres..."

@@ -18,6 +18,9 @@
       border-color: $color-accessible-green;
       box-shadow: 0 0 0 1px $color-accessible-green;
     }
+    &:hover {
+      border-color: $color-accessible-green;
+    }
   }
 
   .select__multi-value {
