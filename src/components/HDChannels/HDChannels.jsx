@@ -7,7 +7,7 @@ import MultiSelect from "../MultiSelect/MultiSelect";
 import "./HDChannels.scss";
 
 function HDChannels() {
-    
+
     const channels = [
         { value: "bbc", label: "BBC" },
         { value: "cnn", label: "CNN" },
@@ -36,22 +36,22 @@ function HDChannels() {
 
     return (
        <section className='hd-channels'>
-              <p className="hd-channels__select" >STEP-5</p>
+              <p className="hd-channels__select" >STEP 5</p>
               <div className='hd-channels__icon'>
                     <img src={filmIcon} alt="HD Channels" />
               </div>
-              
+
               <h2 className='hd-channels__title' >HD Channels</h2>
               <p className='hd-channels__description'>Based on your preset budget, you will be able to select 5 HD channels.</p>
-              <p className="hd-channels__select2" >Select 5</p>
+              <p className="hd-channels__select2" >SELECT 5</p>
               <div className='hd-channels__select-channels'>
                 <MultiSelect
                         options={channels}
-                        placeholder="Select channels..."
+                        placeholder="Select HD channels..."
                         onChange={handleChannelChange}
                     />
               </div> 
-               
+
 
        </section>
     );

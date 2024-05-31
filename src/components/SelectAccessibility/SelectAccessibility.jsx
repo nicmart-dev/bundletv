@@ -15,7 +15,7 @@ const SelectAccessibility = () => {
 
   return (
     <div className="accessibility">
-      <p className="accessibility__step">STEP-8</p>
+      <p className="accessibility__step">STEP 8</p>
       <img src={vectorIcon} alt="accessibility-icon" className="accessibility__icon" />
       <h2 className="accessibility__title">Accessibility</h2>
       <p className="accessibility__description">
