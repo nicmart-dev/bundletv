@@ -1,10 +1,11 @@
 import './App.css';
 import SelectOptions from './pages/SelectOptions/SelectOptions';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      {/* TODO: replace by header component */}
+      <Header />
       <SelectOptions />
     </div>
   );
