@@ -2,7 +2,8 @@
 @use '../../styles/partials/variables' as *;
 @use '../../styles/partials/fonts.scss' as *;
 
-.budget{
+
+.kids{
     padding: 2rem 1.5rem;
     text-align: center;
 
@@ -23,7 +24,7 @@
     &__description{
         padding: .8rem;
         color: $color-text;
-        width: 290px;
+        width: 295px;
         margin: auto;
         padding-bottom: 1.5rem;
         line-height: 1.5rem;
@@ -41,13 +42,11 @@
 
         &-item{
             @include font-mobile-button-label;
-            width: 100%;
             color: $color-accessible-green;
             border: 2px solid $color-accessible-green;
             background: $color-white;
-            padding: 0.8rem 1.5rem;
-            border-radius: 2.2rem;
-            font-weight: 700;
+            padding: 0.6rem 1.8rem;
+            border-radius: 20px;
             margin-bottom: 1rem;
             line-height: 1rem;
             cursor: pointer;
@@ -56,11 +55,10 @@
                 background:$color-accessible-green;
                 color: $color-white;
             }
+
+            &--primary{
+                margin-right: 1rem;
+            }
         }
     }
 }
-
-
-// .btn{
-  
-// }
